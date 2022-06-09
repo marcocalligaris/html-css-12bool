@@ -1,4 +1,32 @@
+/* 
+* --- COLORI ---
+Azzurro #006CFA
+Verde #00E165
+*/
+
 body {
-    height: 100vh;
-    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: black;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 1400px;
+}
+
+.row > [class^='col'] {
+    min-height: 60px;
+    background-color: #006CFA;
+    border: 1px solid white;
+    color: #fff;
+}
+
+.row > .green {
+    background-color: #00E165;
+    border: 1px solid #006CFA;
+}
+
+.row > [class^='col'].h-120 {
+    height: 120px;
 }
